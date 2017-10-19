@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Dalton Consulting</title>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="menu.css">
+<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="js/jquery-ui-1.11.4.custom/jquery-ui.min.css">
+
+<script src="js/jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+
+<script src="js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+
+
+
+
+        <!--<script language="javascript" type="text/javascript" src="js/jquery-2.1.4.min.js"></script>-->
+
+    </head>
+    
+    <body>
+      <header>
+        <h1 class="headText">&nbsp;</h1>
+      </header>
+
+      <div id="container">
+        <div id="sidebar1">
+          <div id="gifContain">
+            <p id="gifText">Dalton Consulting</p>
+          </div>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="#" onclick="showPopup();" data-rel='popup'>Login</a></li>
+              
+            </ul>
+              
+
+            <script>
+            function showPopup(){
+              var dialogShow='<div id="loginDialog" title="Login">
+
+              <p>Username</p><br>
+                <input type="text" name="txtUser" placeholder="Username" required><br><br>
+                <input typ="password" name="txtPassword" placeholder="password" required><br><br>
+                <button id="btnLogin">Login</button>
+
+              </div>';
+                $(dialogShow).dialog();
+
+              }
+
+            </script>
+        </div>
+        <div id="content">
+          <div class="title"><span>Dalton Consulting - We think globally.</span><hr></div>
+
+          <p><h3>Our values</h3>
+          <ul>
+           <li>We value Innovation, dynamismm adaptability and proactivity.</li>
+           <li>We expect results, commitment, professionalism and excellence.</li>
+           <li>We desire transparancy and honesty.</li>
+           <li>We want Collaboration and partnerships.</li>
+         </ul>
+          <h3>Industry sectors</h3>
+          <img class="rightImgHome" src="resources/mobApp.png"/>
+          <ul>
+            <li>Networking</li>
+            <li>Programming</li>
+            <li>Project management</li>
+            <li>Biotechnology</li>
+            <li>SEO/web tools</li>
+          </ul>
+
+
+      
+        </div>
+      </div>
+
+      <footer>
+        <p class="left"><a href="copyright.html">Copyright</a> <a href="privacy.html">Privacy</a></p>
+        <p class="right">&copy; Copyright 2015. All rights reserved</p>
+      </footer>
+    </body>
+
+</html>
